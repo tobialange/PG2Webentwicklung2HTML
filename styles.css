@@ -1,0 +1,29 @@
+/*Hintergrundfarbe des Webauftritts*/
+body {background-color: #f6f6f6;}
+
+/*Schriftfarbe aller Überschriften*/
+h1, h2, h3, h4, h5, h6 {color: #efa800}
+
+/**/
+p {font-family: Arial;}
+
+/**/
+table {
+  border-collapse: collapse;
+}
+
+/**/
+th {
+  border: 1px solid black;
+}
+
+/**/
+td {
+  border: 1px solid black;
+}
+
+/**/
+table td:nth-child(2),
+table td:nth-child(3) {
+  text-align: right;
+}
