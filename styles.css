@@ -4,26 +4,30 @@ body {background-color: #f6f6f6;}
 /*Schriftfarbe aller Überschriften*/
 h1, h2, h3, h4, h5, h6 {color: #efa800}
 
-/**/
+/*Schriftart der Paragraphe (Texte)*/
 p {font-family: Arial;}
 
-/**/
+/*Tabellenfelder zu einer ganzen Tabelle verbinden*/
 table {
   border-collapse: collapse;
 }
 
-/**/
+/*Umrahmung der Spaltenüberschriften der Tabelle*/
 th {
   border: 1px solid black;
 }
 
-/**/
+/*Umrahmung der Tabellen-felder*/
 td {
   border: 1px solid black;
 }
 
-/**/
+/*Tabelleninhalte auf "rechtsbündig" stellen*/
 table td:nth-child(2),
 table td:nth-child(3) {
   text-align: right;
+}
+
+p {
+    margin: 75px;
 }
