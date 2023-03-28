@@ -33,7 +33,8 @@ table {
 }
 
 
-/*padding = Abstand   / margin = Abstand zu allen Seiten der Tabelle  */
+/*padding = Abstand des Inhalts der Tabelle zum Tabellenrahmen
+/ margin = Abstand der Tabelle zum Seitenrand  */
 td, th {
     margin-left: 1em;
     padding: 1em;
